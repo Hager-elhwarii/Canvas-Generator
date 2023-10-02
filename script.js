@@ -1,27 +1,22 @@
 
 
-var c = document.querySelector("canvas");
-console.dir(c);
-var ctx = c.getContext("2d");
-var color = document.querySelector("#inpColor");
-var PickColor;
+let c = document.querySelector("canvas");
+let ctx = c.getContext("2d");
+let color = document.querySelector("#color");
+let PickColor;
+let i;
 
-var i;
-
-function Click() {
+const Click = ()=> {
     Change();
-    setInterval(function () {
-
+    setInterval( ()=> {
 
       ctx.clearRect(0,0,c.width,c.height);
 
-        for (var i= 0; i < 150; i++) {
+        for (let i= 0; i < 150; i++) {
 
             ctx.beginPath();
-            // ctx.clearRect(0,0,c.width,c.height);
-            // ctx.strokeStyle = "white";
-            var x = parseInt(Math.random() * c.width);
-            var y = parseInt(Math.random() * c.height);
+            let x = parseInt(Math.random() * c.width);
+            let y = parseInt(Math.random() * c.height);
             ctx.arc(x, y, 40, 0, Math.PI * 2, true);
             ctx.stroke();
         }
@@ -32,7 +27,7 @@ function Click() {
 }
 
 
-function Change () {  
+const Change = ()=> {  
    PickColor = color.value;
    ctx.strokeStyle = PickColor;
 }
