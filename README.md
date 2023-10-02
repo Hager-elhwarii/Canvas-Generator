@@ -2,11 +2,11 @@
 <a name="readme-top"></a>
 - Using canvas: when the user clicks on the “click me” button generate number of circles in the entire page in random places and get the circles color from the “input color”.
 
-## :camera_flash: Screenshoot 
-![image](https://github.com/Hager-elhwarii/Canvas-Generator/assets/80959882/b7b850a1-bcf7-4d42-9510-83bf22c09890)
+## :camera_flash: Demo GIF
+![Canvas-Generator](https://github.com/Hager-elhwarii/Canvas-Generator/assets/80959882/be732470-c2f2-4182-b0a5-0c0ee99ee6c3)
 
 ## 🚀 Deployment
-  - [Demo Link](https://google-clone-dottie.netlify.app/)
+  - [Demo Link](https://canvas-generator-dottie.netlify.app/)
 
 ## 💻 Tech stack
 
@@ -17,7 +17,7 @@
 ##  🔐 Run locally 
 
 ```bash
-git clone https://github.com/Hager-elhwarii/Google-Clone.git
+git clone https://github.com/Hager-elhwarii/Canvas-Generator.git
 ```
 
 ## 🦄   Author
